@@ -1,37 +1,42 @@
+@@ -1,41 +0,0 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8" />
     <title>CovidHacks2020</title>
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCPJpjD-qcR_yIxJnS8maR5W9KB0E3EzYI&callback=initMap&libraries=&v=weekly"
-      defer
-    ></script>
-    <!-- jsFiddle will insert css and js -->
 
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+    <link
+      href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css"
+      rel="stylesheet"
+    />
     <style>
       #map {
-        height: 400px;
+        position: absolute;
+        top: 15%;
+        bottom: 0;
         width: 100%;
       }
     </style>
   </head>
   <body>
-    <h1>CovidHacks2020</h1>
-    <div id="map"></div>
-    <script>
-      function initMap() {
-        var options = {
-          zoom: 8,
-          center: { lat: 36.7783, lng: 119.4179 }
-        };
-
-        var map = new google.maps.Map(document.getElementById("map"), options);
+    <style>
+      .mapboxgl-popup {
+        max-width: 400px;
+        font: 12px/20px "Helvetica Neue", Arial, Helvetica, sans-serif;
       }
+    </style>
+    <h1>CovidHacks2020</h1>
+    <div id="map" style="width: 400px; height: 300px;"></div>
+    <script>
+      mapboxgl.accessToken =
+        "pk.eyJ1IjoiYmh1YW5nNDUzIiwiYSI6ImNrZXEycjl0eDBqczIyc216b3lra3FyZHMifQ.D6QUxlepy4gXWE7i-MhwrQ";
+      var map = new mapboxgl.Map({
+        container: "map",
+        style: "mapbox://styles/bhuang453/ckeq3zwbc1m8k19nkjb52hy7q",
+        center: [36.7783, 60.5841],
+        zoom: 10
+      });
     </script>
-    <script
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmLSWDtD9K6S7VJEiUlymjoSkxw-oVvVc&callback=initMap"
-      defer
-    ></script>
   </body>
 </html>
