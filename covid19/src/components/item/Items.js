@@ -5,7 +5,7 @@ const Items = ({Icon, title}) => {
     return (
         <div className={styles.items}>
             <Icon/>
-            <h3>{title}</h3>
+            <h4>{title}</h4>
         </div>
     )
 }

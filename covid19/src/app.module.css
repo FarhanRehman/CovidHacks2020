@@ -3,7 +3,7 @@
     width: 100vw;
     display: grid;
     place-items: center;
-    grid-template-columns: 20% auto;
+    grid-template-columns: 15% auto;
     
 }
 .app__body{

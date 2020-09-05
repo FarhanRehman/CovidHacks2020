@@ -3,6 +3,7 @@ import Login from './components/login/Login';
 import styles from './app.module.css';
 import Sidebar from './components/sideBar/Sidebar';
 import Home from './components/Home/Home';
+import Register from './components/register/Register';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 function App() {
@@ -14,6 +15,7 @@ function App() {
                     <div className={styles.app__body}>
                         <Route exact path="/" component={Home} />
                         <Route path="/login" component={Login}/>
+                        <Route path="/register" component={Register} />
                     </div>
                 </Switch>
             </div>

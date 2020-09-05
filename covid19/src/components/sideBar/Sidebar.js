@@ -9,7 +9,7 @@ const Sidebar = () => {
         <div className={styles.sideBar}>
             <div className={styles.sidebar__logo}>
                 <Healing className={styles.logoPic}/>
-                <h1>Covid <br />Hacks2020</h1>
+                <h3>Covid <br />Hacks2020</h3>
             </div>
             <div className={styles.sidebar__items}>
                 <Link to="/"><Item Icon={Home} title="Home"/></Link>

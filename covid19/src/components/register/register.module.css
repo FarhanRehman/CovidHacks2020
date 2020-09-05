@@ -1,0 +1,149 @@
+
+p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.registerContent1{
+    display: flex;
+    padding: 25px;
+    width: 50%;
+    flex-direction: column;
+}
+
+.registerContent2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.authImg{
+    width: 60%;
+    height: 60%;
+    z-index: -1;
+}
+.error{
+    color: red;
+    text-align: center;
+}
+
+.header{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    
+}
+.registerform{
+    height: calc(100% - 25vh);
+    display: flex;
+    flex-direction: column;
+}
+.signInForm > p{
+   font-weight: 300;
+}
+.topInput{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.topInput > .firstName{
+    margin-right: 50px;
+}
+
+.topInput > .lastName{
+    flex: 1;
+}
+/* .topInput > input[type=text]{
+    width: 50%;
+    border: 1px solid rgb(194, 194, 194);
+} */
+/* .topInput:nth-child(2){
+    flex: 1;
+} */
+
+/* .topInput > input[type=text]:not(:last-child){
+    margin-right: 15px;
+} */
+
+.midInput{
+    display: flex;
+    margin-right: 20px;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.midInput > input[type=email]{
+    padding: 10px;
+    border: 1px solid rgb(194, 194, 194);
+    flex: 1;
+    width: 100%;
+}
+
+.bottomInput{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+.bottomInput > input[type=password], .bottomInput > input[type=text]{
+    width: 45%;
+    border: 1px solid rgb(194, 194, 194);
+    outline: none;
+}
+.bottomInput > input[type=password]:not(:last-child), .bottomInput > input[type=text]:not(:last-child){
+    margin-right: 20px;
+    padding: 12px;
+}
+.bottomInput > .password {
+    margin-right: 50px;
+    
+}
+.bottomInput > .confirm{
+    flex: 1;
+}
+.hideShow{
+    font-size: 25px !important;
+    color: rgb(51, 51, 51) !important;
+    cursor: pointer;
+    z-index: 2;
+}
+.hideShowBtn{
+    outline: none !important;
+}
+.header > h3{
+    font-size: 23px;
+    font-weight: 400;
+}
+.buttonDiv{
+    height: 30%;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 2;
+    /* background-color: green; */
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.buttonDiv > a{
+    z-index: 2;
+}
+.formBtn{
+    border: none !important;
+    outline: none !important;
+    background-color: rgb(51, 51, 51) !important;
+    color: white !important;
+    border-radius: 3px !important;
+    z-index: 2 !important;
+}
+.buttonDiv > a:hover {
+    text-decoration: none;
+}
+
