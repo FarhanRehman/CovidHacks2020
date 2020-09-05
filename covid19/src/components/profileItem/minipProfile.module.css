@@ -15,7 +15,7 @@
 p{
     color: gray;
 }
-span{
+p > span{
     color: black;
     font-weight: 500;
     margin-left: 10px;
