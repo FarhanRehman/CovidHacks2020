@@ -16,7 +16,7 @@ const Sidebar = () => {
                 <Item Icon={Search} title="Search"/>
                 <Item Icon={SportsSoccerOutlined} title="My Requests"/>
                 <Item Icon={AddCircleOutline} title="Create Requests"/>
-                <Item Icon={AccountCircle} title="My Profile"/>
+                <Link to="/profile"><Item Icon={AccountCircle} title="My Profile"/></Link>
                 <Link to='/login'><Item Icon={ExitToApp} title="Log In"/></Link>
             </div>
         </div>

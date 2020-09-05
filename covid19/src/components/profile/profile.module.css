@@ -1,0 +1,34 @@
+.profile{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profileInfo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profileInfo > .name{
+    display: grid;
+    grid-template-columns: 50% auto;
+    padding: 20px;
+    width: 100%;
+    border: 1px solid black;
+}
+.lastChild{
+    border-left: 2px solid black;
+    padding-left: 40px;
+    
+}
+
+/* .profileInfo > .name > p{
+    display: flex;
+} */
+/* .profileInfo > .name > p:nth-child(1){
+    margin-right: 20px;
+} */
