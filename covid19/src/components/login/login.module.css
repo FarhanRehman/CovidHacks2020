@@ -1,0 +1,12 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    
+}
+
+.fromBtn{
+    color: white !important;
+    margin-top: 20px !important;
+    background-color: rgb(51,51,51) !important;
+}
