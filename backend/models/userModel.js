@@ -24,22 +24,6 @@ const userSchema = new mongoose.Schema({
     enum: ['user', 'guide', 'lead-guide', 'admin'],
     default: 'user'
   },
-  address: {
-    type: String,
-    required: [true, 'Please tell us your address!']
-  },
-  city: {
-    type: String,
-    required: [true, 'Please tell us your city!']
-  },
-  country: {
-    type: String,
-    required: [true, 'Please tell us your country!']
-  },
-  postalCode: {
-    type: String,
-    required: [true, 'Please tell us your postal code!']
-  },
   phoneNumber: {
     type: String,
     required: [true, 'Please tell us your phone number!']
