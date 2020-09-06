@@ -14,9 +14,16 @@
     align-items: center;
     background-color: white;
 }
+.requestDescriptionContainer{
+    display: flex;
+    flex-direction: column;
+}
 .requestBtn{
    padding: 50px 80px !important;
    margin-bottom: 40px !important;
+}
+.form1{
+    margin-bottom: 10px !important;
 }
 
 .requestBtn:hover{
@@ -27,7 +34,7 @@
  }
 
 .description{
-    height: 250px !important;
+    height: 100px !important;
     width: 550px !important;
     outline: none;
     border: none;
@@ -36,4 +43,8 @@
     padding: 30px !important;
     font-family: arial !important;
     font-size: 15px !important;
+}
+.ReqBtn{
+    background-color: black !important;
+    color: white !important;
 }

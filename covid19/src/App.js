@@ -6,6 +6,7 @@ import Home from './components/Home/Home';
 import Register from './components/register/Register';
 import Profile from './components/profile/Profile';
 import Requests from './components/requests/Requests';
+import RequestRecord from './components/requestRecord/RequestRecord';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 function App() {
@@ -20,6 +21,7 @@ function App() {
                         <Route path="/register" component={Register} />
                         <Route path="/profile" component={Profile} />
                         <Route path="/request" component={Requests} />
+                        <Route path="/my-request" component={RequestRecord} />
                     </div>
                 </Switch>
             </div>
