@@ -23,35 +23,49 @@ const Requests = () => {
     const [desc, setDesc] = useState("")
     const [max, setMax] = useState("")
     const [date, setDate] = useState("")
-    const [location, setLocation] = useState("")
+    const [location, setLocation] = useState("");
+
+
+    const handleSubmit = (e) => {
+        e.preventDefault();  
+    }
+    
 
     const changeEvent = e => {
         setEvent(e.target.value);
+        
     }
 
     const handleHost = e => {
         setHost(e.target.value);
+       
+
     }
     const handleDesc = e => {
         setDesc(e.target.value);
+        
     }
 
     const handleMax = e => {
         setMax(e.target.value);
+       
     }
 
     const handleDate = e => {
         setDate(e.target.value);
+       
     }
 
     const handleLocation = e => {
         setLocation(e.target.value);
+        
     }
 
     const changeHandler = (e) => {
         const category = e.target.value;
         setCategories(category);
         setTextValue(category)
+        
     }
    
 
@@ -130,7 +144,7 @@ const Requests = () => {
                         aria-describedby="my-helper-text"/>
                 </FormControl>
 
-                <Button className={styles.ReqBtn}>
+                <Button className={styles.ReqBtn} onSubmit={handleSubmit}>
                     Submit
                 </Button>
 
