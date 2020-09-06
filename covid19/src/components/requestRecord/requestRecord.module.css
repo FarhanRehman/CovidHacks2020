@@ -1,0 +1,45 @@
+.requestRecord{
+    width: 100%;
+    height: 98%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: scroll;
+    
+}
+
+.requestRecord__header{
+    width: 95%;
+    height: 14%;
+    padding: 20px;
+    background-color: lightgray;
+    box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.404);
+}
+
+.recordBtn{
+    display: flex !important;
+    margin: 0 auto !important;
+    border-radius: 10px !important;
+    background-color: rgb(83, 151, 194) !important;
+    color: white !important;
+}
+
+.requestRecord__header1{
+    width: 95%;
+    height: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    overflow: scroll;
+}
+.request__log{
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+h3{
+    margin-top: 40px;
+}
+
+.requestRecord__header1::-webkit-scrollbar{
+    display: none;
+}

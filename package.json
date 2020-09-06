@@ -1,0 +1,23 @@
+{
+  "name": "covidhacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"cd backend && npm run dev\" \"cd covid19 && npm run start\" "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FarhanRehman/CovidHacks2020.git"
+  },
+  "author": "Farhan, Jigme",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FarhanRehman/CovidHacks2020/issues"
+  },
+  "homepage": "https://github.com/FarhanRehman/CovidHacks2020#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0"
+  }
+}
