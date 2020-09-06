@@ -23,7 +23,7 @@ const Sidebar = () => {
             </div>
             <div className={styles.sidebar__items}>
                 <Link to="/"><Item Icon={Home} title="Home"/></Link>
-                <Item Icon={Search} title="Search"/>
+                <Link to="/search"><Item Icon={Search} title="Search"/></Link>
                 <Link to="/my-request"><Item Icon={SportsSoccerOutlined} title="My Requests"/></Link>
                 <Link to="/request"><Item Icon={AddCircleOutline} title="Create Requests"/></Link>
                 <Link to="/profile"><Item Icon={AccountCircle} title="My Profile"/></Link>
