@@ -5,6 +5,7 @@ import Sidebar from './components/sideBar/Sidebar';
 import Home from './components/Home/Home';
 import Register from './components/register/Register';
 import Profile from './components/profile/Profile';
+import Requests from './components/requests/Requests';
 
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 function App() {
@@ -18,6 +19,7 @@ function App() {
                         <Route path="/login" component={Login}/>
                         <Route path="/register" component={Register} />
                         <Route path="/profile" component={Profile} />
+                        <Route path="/request" component={Requests} />
                     </div>
                 </Switch>
             </div>

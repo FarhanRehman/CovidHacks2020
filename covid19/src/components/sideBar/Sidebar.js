@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from './sidebar.module.css';
-import {Healing, Home, Search, AddCircleOutline, SportsSoccerOutlined, AccountCircle, ExitToApp} from '@material-ui/icons'
+import {Healing, Home, Search, AddCircleOutline, SportsSoccerOutlined, AccountCircle, ExitToApp, VpnKey} from '@material-ui/icons'
 import Item from '../../components/item/Items';
 import {Link} from 'react-router-dom'
 
@@ -15,8 +15,9 @@ const Sidebar = () => {
                 <Link to="/"><Item Icon={Home} title="Home"/></Link>
                 <Item Icon={Search} title="Search"/>
                 <Item Icon={SportsSoccerOutlined} title="My Requests"/>
-                <Item Icon={AddCircleOutline} title="Create Requests"/>
+                <Link to="/request"><Item Icon={AddCircleOutline} title="Create Requests"/></Link>
                 <Link to="/profile"><Item Icon={AccountCircle} title="My Profile"/></Link>
+                <Link to="/register"><Item Icon={VpnKey} title="Register"/></Link>
                 <Link to='/login'><Item Icon={ExitToApp} title="Log In"/></Link>
             </div>
         </div>
