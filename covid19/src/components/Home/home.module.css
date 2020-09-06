@@ -1,0 +1,31 @@
+.home{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homeImg{
+    width: 70%;
+    height: 70%;
+}
+
+.homeContent{
+    position: absolute;
+    background-color: rgba(211, 211, 211, 0.904);
+    height: 500px;
+    width: 600px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.homeContent > p {
+    font-weight: 600;
+    color: gray;
+}
+.homeBtn{
+    background-color: rgba(0, 0, 255, 0.575) !important;
+    margin-top: 50px !important;
+
+}

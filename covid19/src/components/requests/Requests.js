@@ -23,11 +23,9 @@ const Requests = () => {
     const [desc, setDesc] = useState("")
     const [max, setMax] = useState("")
     const [date, setDate] = useState("")
-    const [location, setLocation] = useState("");
-
-
+    const [location, setLocation] = useState("")
     const handleSubmit = (e) => {
-        e.preventDefault();  
+        e.preventDefault();
     }
     
 
